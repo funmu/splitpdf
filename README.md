@@ -56,3 +56,5 @@ Wow! that is about 5x better performance in splitting the files up
 - This uses [Poppler](https://poppler.freedesktop.org/) for working with PDF files.
 
 ## PDF using RUST
+
+See [SplitPDF on RUST](./rust-splitpdf/README.md)
