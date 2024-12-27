@@ -7,6 +7,10 @@ This utility is built using SWIFT to run natively on Apple Silicon machines. It 
 - **Single Page Mode** Each page is processed sequentially to produce the output image one at a time
 - **Paralle Page Mode** Pages are queued up to and processed in parallel. Since each page is fairly independent of the other, having concurrent execution will speed up processing.
 
+## SplitPDF using Swift
+
+see [SplitPDF in Swift](./splitpdf/) for details
+
 Build the tool and run tool
 
 Usage is:
@@ -29,9 +33,9 @@ splitpdf largefile.pdf outputs/largefile single
 
 ```
 
-On my Mac M3 I get results indicating it took 9.497 seconds to process a file with 70 pages 
+On my Mac M3 I get results indicating it took 9.497 seconds to process a file with 70 pages
 
-**8.95s user 0.47s system 99% cpu 9.497 total**
+- *8.95s user 0.47s system 99% cpu 9.497 total*
 
 ### Parallel Processing
 
@@ -42,6 +46,13 @@ splitpdf largefile.pdf outputs/largefile parallel
 
 On my Mac M3 I get results indicating it took 1.942 seconds to process a file with 70 pages
 
-**14.23s user 6.30s system 1057% cpu 1.942 total**
+- *14.23s user 6.30s system 1057% cpu 1.942 total*
 
 Wow! that is about 5x better performance in splitting the files up
+
+## PDF handling using Python
+
+- Use the [pdf2image](https://pypi.org/project/pdf2image/) package.
+- This uses [Poppler](https://poppler.freedesktop.org/) for working with PDF files.
+
+## PDF using RUST
