@@ -55,6 +55,8 @@ Wow! that is about 5x better performance in splitting the files up
 - Use the [pdf2image](https://pypi.org/project/pdf2image/) package.
 - This uses [Poppler](https://poppler.freedesktop.org/) for working with PDF files.
 
+See [SplitPDF using Python](./py-splitpdf/README.md)
+
 ## PDF using RUST
 
-See [SplitPDF on RUST](./rust-splitpdf/README.md)
+See [SplitPDF using RUST](./rust-splitpdf/README.md)
