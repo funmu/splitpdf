@@ -44,7 +44,7 @@ We have to wrap the object within locking sections; we will revisit this later o
 
 ## References
 
-- [Tools Doc: Rust](https://github.com/funmu/tooldocs/docs/rust_tools.md)
+- [Tools Doc: Rust](https://github.com/funmu/tooldocs/blob/main/docs/rust_tools.md)
 - [PDFium-render library in Rust](https://crates.io/crates/pdfium-render)
 
 ### PDFium Source 1
