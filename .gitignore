@@ -63,3 +63,5 @@ fastlane/test_output
 
 .DS_Store
 /py-splitpdf/outputs
+/js-splitpdf/node_modules
+js-splitpdf/package-lock.json

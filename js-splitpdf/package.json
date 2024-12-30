@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "canvas": "^3.0.0",
+    "pdfjs-dist": "^3.4.120"
+  }
+}
