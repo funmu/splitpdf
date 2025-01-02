@@ -1,6 +1,11 @@
 {
   "dependencies": {
     "canvas": "^3.0.0",
-    "pdfjs-dist": "^3.4.120"
+    "help": "^3.0.2",
+    "pdfjs-dist": "^4.10.38"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "pdf-to-png-converter": "^3.6.3"
   }
 }
